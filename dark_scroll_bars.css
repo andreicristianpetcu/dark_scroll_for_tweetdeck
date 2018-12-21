@@ -1,3 +1,8 @@
+/*
+Please Tweetdeck, add this CSS on your site so we will not need this extension.
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars
+https://drafts.csswg.org/css-scrollbars-1/
+*/
 .column-content {
     scrollbar-color: #657685 #15202b;
 }
