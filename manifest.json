@@ -1,0 +1,26 @@
+{
+  "name": "Dark Scroll for TweetDeck",
+  "short_name": "Dark Scroll for TweetDeck",
+  "description": "Makes the TweetDeck scrollbars dark in Firefox. This should be done by TweetDeck, not by an addon :(",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/icon-16.png",
+    "19": "images/icon-19.png",
+    "38": "images/icon-38.png",
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [{
+    "matches": [
+      "https://tweetdeck.twitter.com/*"
+    ],
+    "css": [
+      "dark_scroll_bars.css"
+    ]
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
