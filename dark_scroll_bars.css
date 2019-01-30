@@ -3,7 +3,7 @@ Please Tweetdeck, add this CSS on your site so we will not need this extension.
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scrollbars
 https://drafts.csswg.org/css-scrollbars-1/
 */
-.scroll-styled-h, .scroll-styled-v {
+.scroll-styled-h, .scroll-styled-v, html {
     scrollbar-color: #495460 rgba(255, 255, 255, .0);
     scrollbar-width: thin;
 }
